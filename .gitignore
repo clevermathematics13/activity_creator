@@ -29,6 +29,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local database (dev fallback when Vercel KV is not configured)
+.db.json
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
